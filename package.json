@@ -1,0 +1,19 @@
+{
+  "name": "bera-pairing-site",
+  "version": "1.0.0",
+  "description": "Single-file web UI that pairs a WhatsApp number via bera-baileys pairing code",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bera-baileys": "^1.1.1",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
